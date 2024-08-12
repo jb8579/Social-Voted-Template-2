@@ -532,7 +532,7 @@ p.footer-p-note {
   font-size: 13px;
   font-weight: 400;
   color: #ebebeb;
-  line-height: 27px;
+  line-height: 22px;
 }
 
 p.footer-p-a > a{
@@ -545,11 +545,14 @@ p.footer-p-a > a:hover {
   text-decoration: underline;
 }
 
+.footer-copyright{
+  margin-top: 30px;
+}
+
 p.footer-copyright {
   color: #ffffff !important;
   font-size: 13px !important;
   letter-spacing: 0.2px;
-  margin-top: 30px;
   font-weight: 500;
   font-family: "Hind", sans-serif !important;
 }
@@ -563,10 +566,9 @@ p.footer-copyright > a:hover{
 }
 
 .footer-txt > h2 {
-  font-size: 42px;
+  font-size: 40px;
   font-weight: 700;
   color: #1a1a1ae5;
-  text-transform: uppercase;
   font-family: "Hind", sans-serif !important;
   margin-bottom: -15px;
 }
@@ -587,6 +589,17 @@ p.footer-copyright > a:hover{
   color: #444343e5;
   padding: 12px 0px;
   line-height: 28px;
+  letter-spacing: 0.2px;
+  word-spacing: 1px;
+  margin: 0px !important;
+}
+
+.page-content > ul > li {
+  font-size: 15px;
+  font-weight: 400;
+  color: #444343e5;
+  padding: 12px 0px;
+  line-height: 10px;
   letter-spacing: 0.2px;
   word-spacing: 1px;
   margin: 0px !important;
